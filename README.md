@@ -48,8 +48,6 @@ Once all the data from OpenWeatherMap is extracted, the real-time data processin
 Now, open two terminals and run the following scripts simultaneously:
     
     > python Stream_Processing_Machine_Learning.py
-
-    
     > python Stream_Processing_to_Datalake.py
 
 3. Data Ingestion Simulation:
