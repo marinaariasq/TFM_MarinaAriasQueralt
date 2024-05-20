@@ -40,7 +40,12 @@ Open a terminal and run:
 
 2. Real-Time Data Processing:
 
-Once all the data from OpenWeatherMap is extracted, open two terminals and run the following scripts simultaneously
+Once all the data from OpenWeatherMap is extracted, the real-time data processing begins. But first, initialize Zookeeper and the Kafka server:
+
+    >.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+    >.\bin\windows\kafka-server-start.bat .\config\server.properties    
+    
+Now, open two terminals and run the following scripts simultaneously:
     
     > python Stream_Processing_Machine_Learning.py
 
