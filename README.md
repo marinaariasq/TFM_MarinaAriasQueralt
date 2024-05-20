@@ -56,6 +56,7 @@ While the scripts Stream_Processing_Machine_Learning.py and Stream_Processing_to
 
     > python Streaming_Simulation.py
 
-## Settings
+## Disclaimer
 
-To run this project, you will need an API key and user credentials for the OpenWeatherMap APIs, as well as credentials for the SQL Server database.
+To run this project, you will need an API key and user credentials for the OpenWeatherMap APIs, as well as credentials for the SQL Server database.  Additionally, some of the data files used in this project are not available on this reposity GitHub due to their large size.
+
