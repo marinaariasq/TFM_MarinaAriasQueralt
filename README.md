@@ -16,7 +16,7 @@ The project consists of different scripts grouped into "real-time data ingestion
 
 ### Real-time Data Processing
 + **Stream_Processing_to_Datalake.py:** Processes the data ingested into the Kafka topics and stores it in an SQL Server data lake.
-+ **Stream_Processing_machine_learning.py:** Processes the data ingested into the Kafka topics and uses it to train a machine learning model (Random Forest) to predict air quality based on input data.
++ **Stream_Processing_Machine_Learning.py:** Processes the data ingested into the Kafka topics and uses it to train a machine learning model (Random Forest) to predict air quality based on input data.
     + **Kafka_Spark_Processor.py:** Defines a class that facilitates the processing of streaming data from the Kafka topics using Apache Spark. Used in Stream_Processing_machine_learning.py and Stream_Processing_to_Datalake.py.
 
 
