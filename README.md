@@ -1,4 +1,4 @@
-# TFM_Implementation
+# TFM Implementation
 
 This code is part of the practical implementation of the TFM (Final Master's Thesis) titled "Forecasting Air Quality for the Province of Barcelona: Integrating Simulated Streaming with Advanced Data Processing Techniques" by Marina Arias Queralt, for the Master’s Degree in Data Science at the Open University of Catalonia (UOC).
 
@@ -24,7 +24,7 @@ The project consists of different scripts grouped into "real-time data ingestion
 
 1. Clone the repository:
 
-     > git clone https://github.com/marinaariasq/TFM_Implementation.git 
+     > git clone https://github.com/marinaariasq/TFM_MarinaAriasQueralt.git 
 
 3. Install the required Python packages:
 
