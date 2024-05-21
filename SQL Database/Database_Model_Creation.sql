@@ -11,7 +11,7 @@ CREATE TABLE Locations (
 
 CREATE TABLE AirPollutionData (
     air_pollution_data_id INT PRIMARY KEY IDENTITY(1,1),
-	location_id INT,
+    location_id INT,
     air_quality_index INT,
     co FLOAT,
     no FLOAT,
@@ -21,13 +21,13 @@ CREATE TABLE AirPollutionData (
     pm2_5 FLOAT,
     pm10 FLOAT,
     nh3 FLOAT,
-	timestamp_measurement DATETIME
-	FOREIGN KEY (location_id) REFERENCES Locations(location_id));
+    timestamp_measurement DATETIME
+    FOREIGN KEY (location_id) REFERENCES Locations(location_id));
 
 
 CREATE TABLE WeatherData (
     weather_data_id INT PRIMARY KEY IDENTITY(1,1),
-	location_id INT,
+    location_id INT,
     temperature FLOAT,
     thermal_sensation FLOAT,
     pressure INT,
@@ -39,8 +39,8 @@ CREATE TABLE WeatherData (
     wind_gust FLOAT,
     cloudiness_percentage INT,
     weather_description NVARCHAR(255),
-	timestamp_measurement DATETIME,
-	FOREIGN KEY (location_id) REFERENCES Locations(location_id));
+    timestamp_measurement DATETIME,
+    FOREIGN KEY (location_id) REFERENCES Locations(location_id));
 
 
 -- Check the tables
