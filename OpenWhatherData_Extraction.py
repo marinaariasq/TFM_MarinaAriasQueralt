@@ -66,7 +66,7 @@ for index, row in barcelona_municipe_locations.iterrows():
     start_date = datetime.datetime(Year, Month, Day)
     weather_data_list = []
 
-    for i in range(9):  # Assuming 51 weeks
+    for i in range(9):  
         timestamp = int(start_date.timestamp())
         weather_data = API_Data_Extractor.make_api_request_wheather_data(row['lon'], row['lat'], timestamp)
         if weather_data and 'list' in weather_data:
