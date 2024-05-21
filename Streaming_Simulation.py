@@ -110,6 +110,6 @@ for dt in dict_datetimes[:10]:
     except Exception as e:
         print(f"Error sending data to Kafka: {e}")
 
-    time.sleep(3)
+    time.sleep(2)
  
 print("All data ingested")
