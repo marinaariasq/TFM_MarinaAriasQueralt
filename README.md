@@ -5,6 +5,11 @@ This code is part of the practical implementation of the TFM (Final Master's The
 ## Overview
 The project consists of different scripts grouped into "real-time data ingestion simulation" and "real-time data processing."
 
+The two different folders in this repository are:
+
+ + Saved_data_files_for_extraction: contains the txt file of the municipalities of the province of Barcelona from which we will extract information.
+ + SQL Database: holds the SQL code that generates the tables in the relational database where the real-time processed information will be stored.
+
 ### Real-time Data Ingestion Simulation
 + **OpenWeatherData_extraction.py:** Extracts data from the OpenWeatherMap platform (History API and Air Pollution API) and saves them into two JSON files.
 
@@ -59,4 +64,3 @@ While the scripts Stream_Processing_Machine_Learning.py and Stream_Processing_to
 ## Disclaimer
 
 To run this project, you will need an API key and user credentials for the OpenWeatherMap APIs, as well as credentials for the SQL Server database.  Additionally, some of the data files used in this project are not available on this reposity GitHub due to their large size.
-
