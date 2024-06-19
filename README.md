@@ -7,8 +7,8 @@ The project consists of different scripts grouped into "real-time data ingestion
 
 The two different folders in this repository are:
 
- + Saved_data_files_for_extraction: contains the txt file of the municipalities of the province of Barcelona from which we will extract information.
- + SQL Database: holds the SQL code that generates the tables in the relational database where the real-time processed information will be stored.
+ + *Saved_data_files_for_extraction*: contains the txt file of the municipalities of the province of Barcelona from which we will extract information.
+ + *SQL Database*: holds the SQL code that generates the tables in the relational database where the real-time processed information will be stored.
 
 ### Real-time Data Ingestion Simulation
 + **OpenWeatherData_extraction.py:** Extracts data from the OpenWeatherMap platform (History API and Air Pollution API) and saves them into two JSON files.
